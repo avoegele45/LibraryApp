@@ -1,0 +1,20 @@
+IP == 192.168.1.132
+Port == 5432
+Terminal command to connect
+psql -h 192.168.1.132 -U postgres -d LoveBook
+psql -h 192.168.1.132 -U postgres -d TestBook
+
+psql -h 192.168.1.132 -U bookuser -d TestBook
+
+
+User bookuser - pw = 2140.x4!
+Test DB = TestBook
+Terminal command to quit \q
+
+activate Virtual environ
+source .venv/bin/activate
+ verify with 
+    which python
+
+deactivate with
+ deactivate
